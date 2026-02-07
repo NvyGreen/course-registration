@@ -1,6 +1,0 @@
-flask
-python-dotenv
-flask-wtf
-flask-security
-email_validator
-passlib
