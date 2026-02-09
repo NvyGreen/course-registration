@@ -1,5 +1,5 @@
 # Course Registration
-This project is a demo course registration application, specifically developed and designed for UC Irvine. The application is a simulation of real-world course registration in universities, where students can view and organize their schedules in an efficient, user-friendly, and organized manner.
+This project is a demo course registration application, designed with UC Irvine–style course registration constraints in mind. The application is a simulation of real-world course registration in universities, where students can view and organize their schedules in an efficient, user-friendly, and organized manner.
 
 The objective of this project is to illustrate important constraints of academic registration systems like student registration limits, waiting lists, or scheduling, as well as basic web application concepts like user interactions, data validation, and state management on the server.
 
