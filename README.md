@@ -12,12 +12,27 @@ Backend: Python (Flask)
 Database: MySQL
 
 
-## Features
+## Key Features
 Through this platform, users can:
 * Browse available courses and view detailed course information
 * Filter courses based on specified criteria (e.g., department or availability)
 * Register for and drop classes in real time
 * Join waitlists for courses that have reached capacity
+
+
+## Backend Logic & Constraints
+The backend enforces core registration rules, including:
+- Enrollment caps per course
+- Automatic waitlisting when courses reach capacity
+- Prevention of duplicate enrollments
+- Server-side validation of schedule updates
+
+These constraints are handled at the application and database level to ensure
+consistent system state regardless of frontend behavior.
+
+
+## Screenshots
+(TBA)
 
 
 ## Running Locally
@@ -36,6 +51,10 @@ To run this project locally:
 - Create a SQLite database for the application.
 - Database tables are created manually during development.
 - A formal schema or migration setup is planned as a future improvement.
+
+
+## Scope
+This project focuses on backend constraint enforcement and data modeling. Authentication, deployment, and UI optimization were intentionally out of scope.
 
 
 ## Future Improvements
