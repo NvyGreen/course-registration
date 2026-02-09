@@ -32,7 +32,7 @@ To run this project locally:
 8. You should now be able to use the dashboard locally to view, add, drop, and waitlist courses.
 
 ### Database Setup
-- The application uses a relational database with tables representing courses.
+- The application uses a relational database with tables representing courses, departments, instructors, etc.
 - Create a SQLite database for the application.
 - Database tables are created manually during development.
 - A formal schema or migration setup is planned as a future improvement.
@@ -41,5 +41,4 @@ To run this project locally:
 ## Future Improvements
 * Improve overall UI/UX and visual design
 * Prevent students from registering for multiple courses in the same time slot
-* Enforce prerequisite and corequisite checks during registration
 * Add authentication and student-specific dashboards
