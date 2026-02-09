@@ -22,10 +22,14 @@ Through this platform, users can:
 
 ## Running Locally
 To run this project locally:
-1. Download or clone the repository.
-2. Create a .env file in the root directory.
-3. Add your database connection details and a secret key to the .env file for secure access.
-4. Start the Flask server and access the application through your browser.
+1. Ensure Python (3.9+) and SQLite are installed on your machine.
+2. Clone the repository and navigate to the project directory.
+3. Create and activate a virtual environment, then install the required dependencies.
+4. Create a .env file in the root directory to store environment variables such as the Flask configuration, secret key, and database connection details.
+5. An .env.example file is provided to show the required environment variables and expected format.
+6. Start the Flask development server.
+7. Open the application in your browser at http://127.0.0.1:5000.
+8. You should now be able to use the dashboard locally to view, add, drop, and waitlist courses.
 
 
 ## Future Improvements
